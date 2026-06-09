@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { BriefcaseBusiness, CheckCircle2, MapPin } from 'lucide-react'
 import { workHistory } from '../data/landing'
 
-const workTags = [
+const workTags: Array<[string, string[]]> = [
   ['Data Analyst Intern', ['Excel reporting', 'Power BI dashboards', 'SQL basics', 'KPI tracking']],
   ['IT Support Technician', ['Helpdesk support', 'Hardware setup', 'Network troubleshooting', 'User training']],
 ]
